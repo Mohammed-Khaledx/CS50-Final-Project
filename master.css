@@ -1,0 +1,98 @@
+html {
+  font-size: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #0c58e4, rgb(191, 38, 27));
+}
+.work {
+  height: 100vh;
+  top: 50%;
+}
+
+.prog {
+  padding-top: 150px;
+}
+
+/* Style the container element */
+.work #container {
+  padding: 5px;
+
+  height: fit-content;
+  margin: 0 auto; /* Center horizontally */
+
+  display: flex;
+  /* Center vertically */
+  align-items: end;
+  justify-content: center;
+  padding: 25px 30px;
+  border-radius: 5px;
+  max-width: 700px;
+  width: 100%;
+}
+
+/* Style the output element */
+#output {
+  /* width: 700px; */
+  height: 50px;
+
+  margin: 0 auto; /* Center horizontally */
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  vertical-align: middle; /* Center vertically */
+}
+
+/* Style the bar elements */
+.bar {
+  width: 50px;
+  border-radius: 5px;
+  margin: 0 auto; /* Center horizontally */
+  background-color: #00a0ff; /* Accent color */
+  padding-top: 10px;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  transition: ease 0.5s;
+}
+.bar:hover {
+  transform: scale(1.1);
+}
+.type {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.selection {
+  padding: 20px;
+  border-radius: 50px;
+  margin-right: 20px;
+  background-color: #00a0ff;
+}
+.bubble {
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 50px;
+  background-color: #00a0ff;
+}
+.re {
+  padding: 20px;
+  border-radius: 50px;
+  background-color: #00a0ff;
+}
+
+@media (max-width: 640px) {
+  .bar {
+    width: 28px;
+  }
+}
